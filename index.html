@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merry Christmas Generator</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>
+                Merry Xmas Generator
+            </h1>
+        </header>
+
+        <main>
+
+            <div class="preview">
+                <img id="preview-image" src="./images/img_1.png" alt="Image_1">
+                <img id="preview-text" src="./images/txt_1.png" alt="Text_1">
+                <div class="preview-sender">100 Auguri !</div>
+
+            </div>
+
+            <div class="controls">
+                <div class="actions">
+                    <button id="change-image" class="button primary-button">
+                        <img src="./images/icon-image.png" alt="Icon Image">
+                    </button>
+                    <button id="change-text" class="button primary-button">
+                        <img src="./images/icon-text.png" alt="Icon Text">
+                    </button>
+                </div>
+                
+                <input id="sender" class="controls" type="text" maxlength="20" placeholder="Insert Name">
+                <button id="download" class="button button-secondary"></button>
+            </div>
+
+        </main>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html-to-image/1.11.3/html-to-image.min.js" integrity="sha512-QxqDlz0XgD3yDbMYr8U7H4WpbPewHNFExffq5blMiTZHfNXXsXT2JrIaF8FYqMBrX7OdILft/0vwjyp7FeK/Ww==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

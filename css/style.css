@@ -1,0 +1,105 @@
+/* COLOR_PALETTE */
+:root {
+    --blue: #3535ec;
+    --dark_blue: #120945;
+    --gray: #d4d7f5;
+    --green: #306753;
+    --pink: #de7eb6;
+    --yellow: #f2ad41;
+    --white: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* UTILITIES */
+body {
+    font-family: 'Livvic', Arial, Helvetica sans-serif;
+    background-color: var(--dark_blue);
+    line-height: 1;
+}
+
+header {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 350px;
+    margin: 24px auto 0 auto;
+}
+
+h1 {
+    font-size: 26px;
+    color: var(--pink);
+    margin-bottom: 16px;
+}
+
+.preview {
+    width: 350px;
+    height: 350px;
+    background-color: var(--blue);
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.preview > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.actions > .button {
+    width: 48%;
+}
+
+
+.button {
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.primary-button {
+    background-color: var(--pink);
+}
+
+.button-secondary {
+    background-color: var(--green);
+}
+
+input[type="text"] {
+    font-family: inherit;
+    padding: 12px;
+    width: 100%;
+}
+
+.controls > * {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.preview-sender {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    padding: 8px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
